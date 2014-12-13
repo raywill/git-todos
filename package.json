@@ -1,6 +1,6 @@
 {
   "name": "git-todos",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "main": "lib/git-todos.js",
   "description": "在git项目下快速创建待办事项",
   "homepage": "https://github.com/qiu8310/git-todos",
@@ -27,11 +27,11 @@
   "scripts": {
   },
   "bin": {
-    "git-todos": "cli.js"
+    "git-todos": "lib/cli.js"
   },
   "preferGlobal": "true",
   "dependencies": {
-    "commander": "^2.5.0",
-    "moment": "^2.8.4"
+    "commander": "~2.5.0",
+    "moment": "~2.5.0"
   }
 }
